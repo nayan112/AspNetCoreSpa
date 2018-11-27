@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using AspNet.Security.OpenIdConnect.Primitives;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public class HttpUnitOfWork : UnitOfWork
     {

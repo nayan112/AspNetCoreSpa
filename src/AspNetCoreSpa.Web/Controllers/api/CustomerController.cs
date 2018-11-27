@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using AspNetCoreSpa.Core.Entities;
-using AspNetCoreSpa.Core.ViewModels;
-using AspNetCoreSpa.Infrastructure;
+using MyCommunity.Core.Entities;
+using MyCommunity.Core.ViewModels;
+using MyCommunity.Infrastructure;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreSpa.Web.Controllers.api
+namespace MyCommunity.Web.Controllers.api
 {
     public class CustomerController : BaseController
     {

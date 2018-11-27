@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AspNetCoreSpa.STS.Models
+namespace MyCommunity.STS.Models
 {
     public class LoginInputModel
     {

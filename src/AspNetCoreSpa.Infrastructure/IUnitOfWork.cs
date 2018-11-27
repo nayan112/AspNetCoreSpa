@@ -1,5 +1,5 @@
 ﻿
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public interface IUnitOfWork
     {

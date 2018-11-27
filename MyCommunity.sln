@@ -17,21 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.Web", "src\AspNetCoreSpa.Web\AspNetCoreSpa.Web.csproj", "{66CD6482-8A49-4D55-97E5-4E97935F8F92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.Web", "src\AspNetCoreSpa.Web\MyCommunity.Web.csproj", "{66CD6482-8A49-4D55-97E5-4E97935F8F92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70506EDC-51C6-4ED4-AF6C-B5FFA508972A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.Core", "src\AspNetCoreSpa.Core\AspNetCoreSpa.Core.csproj", "{FE862C6C-F04A-4663-BDB2-5F62FC98DED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.Core", "src\AspNetCoreSpa.Core\MyCommunity.Core.csproj", "{FE862C6C-F04A-4663-BDB2-5F62FC98DED7}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A345DA20-825C-4494-9DC6-748C1192E135}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.Infrastructure", "src\AspNetCoreSpa.Infrastructure\AspNetCoreSpa.Infrastructure.csproj", "{67B30E75-5595-4E7A-9907-91530038983D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.Infrastructure", "src\AspNetCoreSpa.Infrastructure\MyCommunity.Infrastructure.csproj", "{67B30E75-5595-4E7A-9907-91530038983D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.Web.Integration", "tests\AspNetCoreSpa.Web.Integration\AspNetCoreSpa.Web.Integration.csproj", "{B108BD65-6F78-4F53-998C-EE8CA6D34167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.Web.Integration", "tests\AspNetCoreSpa.Web.Integration\MyCommunity.Web.Integration.csproj", "{B108BD65-6F78-4F53-998C-EE8CA6D34167}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.Web.Tests", "tests\AspNetCoreSpa.Web.Tests\AspNetCoreSpa.Web.Tests.csproj", "{E56EEE09-1000-4A00-A304-7C81DCD2B315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.Web.Tests", "tests\AspNetCoreSpa.Web.Tests\MyCommunity.Web.Tests.csproj", "{E56EEE09-1000-4A00-A304-7C81DCD2B315}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSpa.STS", "src\AspNetCoreSpa.STS\AspNetCoreSpa.STS.csproj", "{B0774658-1D62-434A-BCE1-86B946B4F0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommunity.STS", "src\AspNetCoreSpa.STS\MyCommunity.STS.csproj", "{B0774658-1D62-434A-BCE1-86B946B4F0CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

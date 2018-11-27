@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     [SecurityHeaders]
     [Authorize]

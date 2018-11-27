@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AspNetCoreSpa.Core.ViewModels
+namespace MyCommunity.Core.ViewModels
 {
     public class ProductCategoryViewModel
     {

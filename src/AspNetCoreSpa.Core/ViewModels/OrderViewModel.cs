@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreSpa.Core.ViewModels
+﻿namespace MyCommunity.Core.ViewModels
 {
     public class OrderViewModel
     {

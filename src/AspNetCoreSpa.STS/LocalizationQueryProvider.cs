@@ -6,7 +6,7 @@ using Microsoft.Extensions.Primitives;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Linq;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class LocalizationQueryProvider : RequestCultureProvider
     {

@@ -23,24 +23,24 @@ RUN apt-get update -qq && \
 # End setup
 
 WORKDIR /src
-COPY ["src/AspNetCoreSpa.Web/AspNetCoreSpa.Web.csproj", "src/AspNetCoreSpa.Web/"]
+COPY ["src/MyCommunity.Web/MyCommunity.Web.csproj", "src/MyCommunity.Web/"]
 COPY ["src/AspNetCoreSpa.Core/AspNetCoreSpa.Core.csproj", "src/AspNetCoreSpa.Core/"]
 COPY ["src/AspNetCoreSpa.Infrastructure/AspNetCoreSpa.Infrastructure.csproj", "src/AspNetCoreSpa.Infrastructure/"]
-RUN dotnet restore "src/AspNetCoreSpa.Web/AspNetCoreSpa.Web.csproj"
-COPY ["src/AspNetCoreSpa.Web/ClientApp/package.json", "src/AspNetCoreSpa.Web/ClientApp/"]
+RUN dotnet restore "src/MyCommunity.Web/MyCommunity.Web.csproj"
+COPY ["src/MyCommunity.Web/ClientApp/package.json", "src/MyCommunity.Web/ClientApp/"]
 
-RUN cd src/AspNetCoreSpa.Web/ClientApp \
+RUN cd src/MyCommunity.Web/ClientApp \
     && npm i --silent
 
 COPY . .
-WORKDIR "/src/src/AspNetCoreSpa.Web"
-RUN dotnet build "AspNetCoreSpa.Web.csproj" -c Release -o /app
+WORKDIR "/src/src/MyCommunity.Web"
+RUN dotnet build "MyCommunity.Web.csproj" -c Release -o /app
 
 FROM build AS publish
 
-RUN dotnet publish "AspNetCoreSpa.Web.csproj" -c Release -o /app
+RUN dotnet publish "MyCommunity.Web.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "AspNetCoreSpa.Web.dll"]
+ENTRYPOINT ["dotnet", "MyCommunity.Web.dll"]

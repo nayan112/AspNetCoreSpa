@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreSpa.Core.Entities
+﻿namespace MyCommunity.Core.Entities
 {
     public class OrderDetail : AuditableEntity
     {

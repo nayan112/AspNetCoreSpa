@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
-namespace AspNetCoreSpa.STS.Views.Manage
+namespace MyCommunity.STS.Views.Manage
 {
     public static class ManageNavPages
     {

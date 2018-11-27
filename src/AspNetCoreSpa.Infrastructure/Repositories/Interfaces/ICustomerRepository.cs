@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using AspNetCoreSpa.Core.Entities;
+using MyCommunity.Core.Entities;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public interface ICustomerRepository : IRepository<Customer>
     {

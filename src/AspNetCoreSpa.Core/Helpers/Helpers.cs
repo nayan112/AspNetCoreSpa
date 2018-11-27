@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace AspNetCoreSpa.Core
+namespace MyCommunity.Core
 {
     public static class Helpers
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 
-namespace AspNetCoreSpa.Infrastructure.Services
+namespace MyCommunity.Infrastructure.Services
 {
     public class UserResolverService
     {

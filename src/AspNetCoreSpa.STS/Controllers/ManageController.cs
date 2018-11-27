@@ -8,15 +8,15 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AspNetCoreSpa.STS.Models;
-using AspNetCoreSpa.STS.Services;
+using MyCommunity.STS.Models;
+using MyCommunity.STS.Services;
 using Microsoft.Extensions.Localization;
-using AspNetCoreSpa.STS.Resources;
+using MyCommunity.STS.Resources;
 using System.Reflection;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace AspNetCoreSpa.STS.Controllers
+namespace MyCommunity.STS.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
@@ -135,7 +135,7 @@ namespace AspNetCoreSpa.STS.Controllers
             var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: HttpContext.Request.Scheme);
             await _emailSender.SendEmail(
                model.Email,
-               "AspNetCoreSpa.STS Verification Email",
+               "MyCommunity.STS Verification Email",
                $"Please verify by clicking here: {callbackUrl}",
                "Hi Sir");
 

@@ -4,7 +4,7 @@ using System.Linq;
 using IdentityServer4;
 using IdentityServer4.Models;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class Config
     {

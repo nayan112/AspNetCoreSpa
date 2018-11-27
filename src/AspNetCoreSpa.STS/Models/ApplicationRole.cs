@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class ApplicationRole : IdentityRole<Guid>
     {

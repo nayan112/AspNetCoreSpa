@@ -1,6 +1,6 @@
-﻿using AspNetCoreSpa.Web.Extensions;
-using AspNetCoreSpa.Web.SignalR;
-using AspNetCoreSpa.Core.ViewModels;
+﻿using MyCommunity.Web.Extensions;
+using MyCommunity.Web.SignalR;
+using MyCommunity.Core.ViewModels;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,8 +11,9 @@ using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.SpaServices.AngularCli;
 
-namespace AspNetCoreSpa.Web
+namespace MyCommunity.Web
 {
     public class Startup
     {
@@ -183,9 +184,9 @@ namespace AspNetCoreSpa.Web
 
                           if (env.IsDevelopment())
                           {
-                              //   spa.UseAngularCliServer(npmScript: "start");
+                                 spa.UseAngularCliServer(npmScript: "start");
                               //   OR
-                              spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                              //spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
                           }
                       });
         }

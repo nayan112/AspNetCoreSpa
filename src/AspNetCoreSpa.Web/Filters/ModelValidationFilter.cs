@@ -1,8 +1,8 @@
-using AspNetCoreSpa.Core;
+using MyCommunity.Core;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace AspNetCoreSpa.Web.Filters
+namespace MyCommunity.Web.Filters
 {
     public class ModelValidationFilter : IActionFilter
     {

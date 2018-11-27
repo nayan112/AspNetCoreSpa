@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace AspNetCoreSpa.Core.ViewModels.ManageViewModels
+namespace MyCommunity.Core.ViewModels.ManageViewModels
 {
     public class EnableAuthenticatorViewModel
     {

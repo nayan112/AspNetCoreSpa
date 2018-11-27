@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AspNetCoreSpa.STS.Models
+namespace MyCommunity.STS.Models
 {
     public class StsConfig
     {

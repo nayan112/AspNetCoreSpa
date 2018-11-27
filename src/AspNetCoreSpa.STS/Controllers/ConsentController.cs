@@ -5,12 +5,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using IdentityServer4.Models;
 using IdentityServer4.Stores;
-using AspNetCoreSpa.STS.Models;
+using MyCommunity.STS.Models;
 using Microsoft.Extensions.Localization;
-using AspNetCoreSpa.STS.Resources;
+using MyCommunity.STS.Resources;
 using System.Reflection;
 
-namespace AspNetCoreSpa.STS.Controllers
+namespace MyCommunity.STS.Controllers
 {
     /// <summary>
     /// This controller implements the consent logic

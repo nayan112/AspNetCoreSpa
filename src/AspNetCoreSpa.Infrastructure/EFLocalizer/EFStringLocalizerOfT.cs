@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public class EFStringLocalizer<T> : IStringLocalizer<T>
     {

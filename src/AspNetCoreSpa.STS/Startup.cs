@@ -10,17 +10,17 @@ using IdentityServer4;
 using System;
 using Microsoft.AspNetCore.HttpOverrides;
 using System.Security.Cryptography.X509Certificates;
-using AspNetCoreSpa.STS.Models;
-using AspNetCoreSpa.STS.Resources;
+using MyCommunity.STS.Models;
+using MyCommunity.STS.Resources;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.Generic;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using AspNetCoreSpa.STS.Services;
+using MyCommunity.STS.Services;
 using Microsoft.Extensions.Options;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class Startup
     {

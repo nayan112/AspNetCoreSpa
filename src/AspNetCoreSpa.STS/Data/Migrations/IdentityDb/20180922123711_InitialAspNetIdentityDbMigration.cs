@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace AspNetCoreSpa.STS.Data.Migrations.IdentityDb
+namespace MyCommunity.STS.Data.Migrations.IdentityDb
 {
     public partial class InitialAspNetIdentityDbMigration : Migration
     {

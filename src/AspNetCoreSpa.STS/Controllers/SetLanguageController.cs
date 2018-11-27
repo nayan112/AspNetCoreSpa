@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreSpa.STS.Controllers
+namespace MyCommunity.STS.Controllers
 {
     public class SetLanguageController : Controller
     {

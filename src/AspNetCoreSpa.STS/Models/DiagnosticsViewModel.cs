@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class DiagnosticsViewModel
     {

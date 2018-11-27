@@ -1,4 +1,4 @@
-namespace AspNetCoreSpa.STS.Models
+namespace MyCommunity.STS.Models
 {
     public class LogoutViewModel : LogoutInputModel
     {

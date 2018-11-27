@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class SecurityHeadersAttribute : ActionFilterAttribute
     {

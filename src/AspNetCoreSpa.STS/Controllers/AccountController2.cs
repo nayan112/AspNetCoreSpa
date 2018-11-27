@@ -19,7 +19,7 @@
 // using System;
 // using System.Collections.Generic;
 // using Microsoft.AspNetCore.Authorization;
-// using AspNetCoreSpa.STS;
+// using MyCommunity.STS;
 
 // namespace IdentityServer4.Quickstart.UI
 // {

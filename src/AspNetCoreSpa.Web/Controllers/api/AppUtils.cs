@@ -1,4 +1,4 @@
-namespace AspNetCoreSpa.Web.Controllers.api
+namespace MyCommunity.Web.Controllers.api
 {
     public class AppUtils
     {

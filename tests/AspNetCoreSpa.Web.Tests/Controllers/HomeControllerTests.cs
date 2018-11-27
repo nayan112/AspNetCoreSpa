@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace AspNetCoreSpa.Web.Tests.Controllers
+namespace MyCommunity.Web.Tests.Controllers
 {
     public class HomeControllerTests
     {

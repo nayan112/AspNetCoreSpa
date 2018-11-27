@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using AspNetCoreSpa.Core.Entities;
+using MyCommunity.Core.Entities;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {

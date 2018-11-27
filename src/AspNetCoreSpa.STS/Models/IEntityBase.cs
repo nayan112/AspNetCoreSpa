@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreSpa.STS
+﻿namespace MyCommunity.STS
 {
     public interface IEntityBase
     {

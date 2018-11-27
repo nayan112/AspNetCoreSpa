@@ -1,4 +1,4 @@
-namespace AspNetCoreSpa.Core
+namespace MyCommunity.Core
 {
     public enum Gender
     {

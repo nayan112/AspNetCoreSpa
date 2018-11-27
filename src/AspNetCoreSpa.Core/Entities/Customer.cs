@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AspNetCoreSpa.Core.Entities
+namespace MyCommunity.Core.Entities
 {
     public class Customer : AuditableEntity
     {

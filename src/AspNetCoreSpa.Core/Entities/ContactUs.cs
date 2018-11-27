@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace AspNetCoreSpa.Core.Entities
+namespace MyCommunity.Core.Entities
 {
     public class ContactUs : IEntityBase
     {

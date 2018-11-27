@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AspNetCoreSpa.Core
+namespace MyCommunity.Core
 {
     public static class EnumExtensions
     {

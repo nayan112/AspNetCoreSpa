@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
-using AspNetCoreSpa.STS.Models;
+using MyCommunity.STS.Models;
 using System.Threading.Tasks;
 
-namespace AspNetCoreSpa.STS.Services
+namespace MyCommunity.STS.Services
 {
     public class EmailSender : IEmailSender
     {

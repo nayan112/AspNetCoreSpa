@@ -2,14 +2,14 @@
 using System.Threading.Tasks;
 using Xunit;
 
-namespace AspNetCoreSpa.Web.Integration
+namespace MyCommunity.Web.Integration
 {
     #region snippet1
-    public class BasicTests : IClassFixture<WebApplicationFactory<AspNetCoreSpa.Web.Startup>>
+    public class BasicTests : IClassFixture<WebApplicationFactory<MyCommunity.Web.Startup>>
     {
-        private readonly WebApplicationFactory<AspNetCoreSpa.Web.Startup> _factory;
+        private readonly WebApplicationFactory<MyCommunity.Web.Startup> _factory;
 
-        public BasicTests(WebApplicationFactory<AspNetCoreSpa.Web.Startup> factory)
+        public BasicTests(WebApplicationFactory<MyCommunity.Web.Startup> factory)
         {
             _factory = factory;
         }

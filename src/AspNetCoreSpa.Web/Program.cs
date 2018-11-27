@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore;
 using System;
-using AspNetCoreSpa.Infrastructure;
+using MyCommunity.Infrastructure;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 
-namespace AspNetCoreSpa.Web
+namespace MyCommunity.Web
 {
     public class Program
     {

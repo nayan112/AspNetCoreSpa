@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-namespace AspNetCoreSpa.STS.Services.Certificate
+namespace MyCommunity.STS.Services.Certificate
 {
     public class KeyVaultCertificateService : ICertificateService
     {

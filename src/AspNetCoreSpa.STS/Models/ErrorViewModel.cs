@@ -1,6 +1,6 @@
 ﻿using IdentityServer4.Models;
 
-namespace AspNetCoreSpa.STS.Models
+namespace MyCommunity.STS.Models
 {
     public class ErrorViewModel
     {

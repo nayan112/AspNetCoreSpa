@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Localization;
 using System.Reflection;
 
-namespace AspNetCoreSpa.STS.Resources
+namespace MyCommunity.STS.Resources
 {
     public class LocService
     {

@@ -1,11 +1,11 @@
 ﻿// For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 using Microsoft.AspNetCore.Mvc;
-using AspNetCoreSpa.Infrastructure.Services;
+using MyCommunity.Infrastructure.Services;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Http;
 using System;
 
-namespace AspNetCoreSpa.Web.Controllers
+namespace MyCommunity.Web.Controllers
 {
     public class HomeController : Controller
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     /// <summary>
     /// This sample controller allows a user to revoke grants given to clients

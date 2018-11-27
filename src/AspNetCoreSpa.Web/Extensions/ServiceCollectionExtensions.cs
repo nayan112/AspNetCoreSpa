@@ -1,4 +1,4 @@
-﻿using AspNetCoreSpa.Web.Filters;
+﻿using MyCommunity.Web.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -7,13 +7,13 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using AspNetCoreSpa.Infrastructure;
+using MyCommunity.Infrastructure;
 using System.Linq;
-using AspNetCoreSpa.Core;
+using MyCommunity.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace AspNetCoreSpa.Web.Extensions
+namespace MyCommunity.Web.Extensions
 {
     public static class ServiceCollectionExtensions
     {
@@ -69,14 +69,14 @@ namespace AspNetCoreSpa.Web.Extensions
                 {
                     var connection = Startup.Configuration["Data:SqlLiteConnectionString"];
                     options.UseSqlite(connection);
-                    options.UseSqlite(connection, b => b.MigrationsAssembly("AspNetCoreSpa.Web"));
+                    options.UseSqlite(connection, b => b.MigrationsAssembly("MyCommunity.Web"));
 
                 }
                 else
                 {
                     var connection = Startup.Configuration["Data:SqlServerConnectionString"];
                     options.UseSqlServer(connection);
-                    options.UseSqlServer(connection, b => b.MigrationsAssembly("AspNetCoreSpa.Web"));
+                    options.UseSqlServer(connection, b => b.MigrationsAssembly("MyCommunity.Web"));
                 }
             });
             return services;

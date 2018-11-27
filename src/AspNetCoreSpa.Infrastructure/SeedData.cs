@@ -1,5 +1,5 @@
-﻿using AspNetCoreSpa.Core;
-using AspNetCoreSpa.Core.Entities;
+﻿using MyCommunity.Core;
+using MyCommunity.Core.Entities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public interface ISeedData
     {

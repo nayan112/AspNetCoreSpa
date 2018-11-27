@@ -1,8 +1,8 @@
-using AspNetCoreSpa.Infrastructure.Services;
+using MyCommunity.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 
-namespace AspNetCoreSpa.Infrastructure
+namespace MyCommunity.Infrastructure
 {
     public static class ServicesCollectionExtension
     {

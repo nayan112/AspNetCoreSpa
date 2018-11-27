@@ -1,4 +1,4 @@
-﻿using AspNetCoreSpa.Infrastructure;
+﻿using MyCommunity.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
@@ -6,10 +6,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace AspNetCoreSpa.Web.Integration
+namespace MyCommunity.Web.Integration
 {
     #region snippet1
-    public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<AspNetCoreSpa.Web.Startup>
+    public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<MyCommunity.Web.Startup>
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {

@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreSpa.Infrastructure
+﻿namespace MyCommunity.Infrastructure
 {
 
     public class UnitOfWork : IUnitOfWork

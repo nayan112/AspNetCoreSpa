@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace AspNetCoreSpa.Web.Filters
+namespace MyCommunity.Web.Filters
 {
 
     public class ApiError

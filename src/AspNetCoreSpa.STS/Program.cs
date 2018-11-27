@@ -7,7 +7,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class Program
     {

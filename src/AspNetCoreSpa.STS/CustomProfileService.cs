@@ -7,7 +7,7 @@ using IdentityServer4.Models;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Identity;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class CustomProfileService : IProfileService
     {

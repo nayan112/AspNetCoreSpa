@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.Extensions.Logging;
 using System.Net;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class AdminSafeListMiddleware
     {

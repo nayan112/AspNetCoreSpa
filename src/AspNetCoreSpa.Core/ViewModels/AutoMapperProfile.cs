@@ -1,7 +1,7 @@
-﻿using AspNetCoreSpa.Core.Entities;
+﻿using MyCommunity.Core.Entities;
 using AutoMapper;
 
-namespace AspNetCoreSpa.Core.ViewModels
+namespace MyCommunity.Core.ViewModels
 {
     public class AutoMapperProfile : Profile
     {

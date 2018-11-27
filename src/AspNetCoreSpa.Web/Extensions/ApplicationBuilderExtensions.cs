@@ -7,7 +7,7 @@ using NetEscapades.AspNetCore.SecurityHeaders;
 using NetEscapades.AspNetCore.SecurityHeaders.Infrastructure;
 using System;
 
-namespace AspNetCoreSpa.Web.Extensions
+namespace MyCommunity.Web.Extensions
 {
     public static class ApplicationBuilderExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using System.IO;
 
-namespace AspNetCoreSpa.Core
+namespace MyCommunity.Core
 {
     public static class HostingEnvironmentExtensions
     {

@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace AspNetCoreSpa.Web.Filters
+namespace MyCommunity.Web.Filters
 {
     public class ValidationError
     {

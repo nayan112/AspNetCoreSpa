@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AspNetCoreSpa.STS
+namespace MyCommunity.STS
 {
     public class GrantsViewModel
     {

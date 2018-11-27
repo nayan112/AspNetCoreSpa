@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using AspNetCoreSpa.STS.Models;
+using MyCommunity.STS.Models;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
 using IdentityServer4.Models;
 using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Extensions;
-using AspNetCoreSpa.STS.Services;
+using MyCommunity.STS.Services;
 using Microsoft.Extensions.Localization;
-using AspNetCoreSpa.STS.Resources;
+using MyCommunity.STS.Resources;
 using System.Reflection;
 using Microsoft.Extensions.Options;
 using IdentityServer4.Events;
@@ -25,7 +25,7 @@ using System.Security.Principal;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 
-namespace AspNetCoreSpa.STS.Controllers
+namespace MyCommunity.STS.Controllers
 {
     [Authorize]
     public class AccountController : Controller

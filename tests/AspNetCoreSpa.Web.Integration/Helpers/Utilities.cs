@@ -1,6 +1,6 @@
-﻿using AspNetCoreSpa.Infrastructure;
+﻿using MyCommunity.Infrastructure;
 
-namespace AspNetCoreSpa.Web.Integration
+namespace MyCommunity.Web.Integration
 {
     public static class Utilities
     {

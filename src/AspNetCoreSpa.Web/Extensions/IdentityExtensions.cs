@@ -2,7 +2,7 @@
 using System.Security.Claims;
 using AspNet.Security.OpenIdConnect.Primitives;
 
-namespace AspNetCoreSpa.Web.Extensions
+namespace MyCommunity.Web.Extensions
 {
     public static class IdentityExtensions
     {
