@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNetCoreSpa.Core\AspNetCoreSpa.Core.csproj" />
+    <ProjectReference Include="..\MySchool.Core\MySchool.Core.csproj" />
   </ItemGroup>
 
 </Project>
