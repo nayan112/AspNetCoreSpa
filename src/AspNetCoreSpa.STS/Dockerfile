@@ -1,14 +1,17 @@
-FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 
-EXPOSE 5005
+EXPOSE 80
+EXPOSE 443
 
-FROM microsoft/dotnet:2.2-sdk AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["src/AspNetCoreSpa.STS/AspNetCoreSpa.STS.csproj", "src/AspNetCoreSpa.STS/"]
 RUN dotnet restore "src/AspNetCoreSpa.STS/AspNetCoreSpa.STS.csproj"
 COPY . .
-WORKDIR "/src/src/AspNetCoreSpa.STS"
+WORKDIR /src/src/AspNetCoreSpa.STS
 RUN dotnet build "AspNetCoreSpa.STS.csproj" -c Release -o /app
 
 FROM build AS publish

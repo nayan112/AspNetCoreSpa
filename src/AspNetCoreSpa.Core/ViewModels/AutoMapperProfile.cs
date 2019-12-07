@@ -1,4 +1,5 @@
-﻿using AspNetCoreSpa.Core.Entities;
+﻿using System.Collections.Generic;
+using AspNetCoreSpa.Core.Entities;
 using AutoMapper;
 
 namespace AspNetCoreSpa.Core.ViewModels

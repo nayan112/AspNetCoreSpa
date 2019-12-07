@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2018
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE75BCFF-DB7E-48F6-BD0F-FBC5D36D560E}"
 EndProject
@@ -13,7 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		deploy.azure.ps1 = deploy.azure.ps1
 		deploy.heroku.ps1 = deploy.heroku.ps1
 		LICENSE = LICENSE
-		NuGet.config = NuGet.config
 		README.md = README.md
 	EndProjectSection
 EndProject
